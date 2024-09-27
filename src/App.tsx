@@ -30,9 +30,11 @@ function App() {
 
 
     return (
-        <div>
+        <div className="">
 
-            <List data={data} />
+            <div className="p-2">
+                <List data={data} />
+            </div>
 
         </div>
     )
