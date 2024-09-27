@@ -2,9 +2,13 @@
   {
     "title": "Jaws",
     "image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/lxM6kqilAdpdhqUl2biYp5frUxE.jpg",
-    "desc": ""
+    "desc": "\n\nWhen the seaside community of Amity finds itself under attack by a dangerous great white shark, the town's chief of police, a young marine biologist, and a grizzled hunter embark on a desperate quest to destroy the beast before it strikes again.\n",
+    "die": true
   },
   {
-    "title": "Test2"
+    "title": "Jaws 2",
+    "image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/rKPRwOXxL1xQcg7bQHjiu1asRg0.jpg",
+    "desc": "Police chief Brody must protect the citizens of Amity after a second monstrous shark begins terrorizing the waters.",
+    "die": true
   }
 ]
