@@ -19,7 +19,6 @@ function App() {
 
             if (response.ok) {
                 let res = await response.json();
-                console.log(res);
 
                 // @ts-ignore - object is of Movie
                 res.sort((m1, m2) => m1.title.localeCompare(m2.title));
@@ -51,17 +50,20 @@ function App() {
 
 
     return (
-        <div className="">
+        <div className="h-screen flex flex-col">
 
             <div className="bg-main w-full py-3 flex justify-center items-center">
                 <div className="flex gap-2 items-center w-2/3 md:w-1/2">
-                    <input className="h-10 bg-white font-bold text-xl rounded-3xl py-1 px-3 w-full" value={search} onChange={searchData}/>
+                    <input className="h-10 bg-white font-bold text-xl rounded-3xl py-1 px-3 w-full" value={search}
+                           onChange={searchData}/>
                 </div>
             </div>
 
             <div className="p-2">
                 <List data={filteredData}/>
             </div>
+
+            <div className="flex-grow"/>
 
             <div className="bg-main h-auto md:h-20 text-white grid md:flex justify-end items-center px-2">
 
@@ -70,7 +72,8 @@ function App() {
                         <img src='https://storage.ko-fi.com/cdn/kofi2.png?v=3' alt='Buy Me a Coffee at ko-fi.com'
                              className="h-10 cursor-pointer"/>
                     </a>
-                    <h1 className="px-2 text-sm">Developed by <span className="whitespace-nowrap">Daniel Keane Kelly</span></h1>
+                    <h1 className="px-2 text-sm">Developed by <span
+                        className="whitespace-nowrap">Daniel Keane Kelly</span></h1>
                 </div>
 
                 <div className="flex-grow"/>
