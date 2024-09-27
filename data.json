@@ -10,5 +10,11 @@
     "image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/rKPRwOXxL1xQcg7bQHjiu1asRg0.jpg",
     "desc": "Police chief Brody must protect the citizens of Amity after a second monstrous shark begins terrorizing the waters.",
     "die": true
+  },
+  {
+    "title" : "The Suicide Squad",
+    "image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg",
+    "desc": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
+    "die": false
   }
 ]
