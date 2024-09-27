@@ -16,5 +16,35 @@
     "image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg",
     "desc": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
     "die": false
+  },
+  {
+    "title" : "Sharknado",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/atEmHkVFTSGRYt2PeCiziQqbZnI.jpg",
+    "desc": "A freak hurricane hits Los Angeles, causing man-eating sharks to be scooped up in tornadoes and flooding the city with shark-infested seawater. Surfer and bar-owner Fin sets out with his friends Baz and Nova to rescue his estranged wife April and teenage daughter Claudia.",
+    "die": true
+  },
+  {
+    "title" : "Shark Tale",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/r08DpyPyhXcJTfNZAICNGMzcQ8l.jpg",
+    "desc": "Oscar is a small fish whose big aspirations often get him into trouble. Meanwhile, Lenny is a great white shark with a surprising secret that no sea creature would guess: He's a vegetarian. When a lie turns Oscar into an improbable hero and Lenny becomes an outcast, the two form an unlikely friendship.",
+    "die": true
+  },
+  {
+    "title" : "Jaws: The Revenge ",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ebYw9tR0iqBzDGA6HVBhtd2xJM3.jpg",
+    "desc": "After another deadly shark attack, Ellen Brody decides she has had enough of New England's Amity Island and moves to the Caribbean to join her son, Michael, and his family. But a great white shark has followed her there, hungry for more lives.",
+    "die": true
+  },
+  {
+    "title" : "Jaws 3-D",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/kqDXj53F9paqVGJLGfHtz7giJ3s.jpg",
+    "desc": "A giant thirty-five-foot shark becomes trapped in a SeaWorld theme park and it's up to the sons of police chief Brody to rescue everyone.",
+    "die": true
+  },
+  {
+    "title" : "The Reef",
+    "image": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/s5JGAqmdv1cHlDjMqsmQUkVo2lW.jpg",
+    "desc": "A great white shark hunts the crew of a capsized sailboat along the Great Barrier Reef.",
+    "die": false
   }
 ]
