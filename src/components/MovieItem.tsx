@@ -6,25 +6,27 @@ interface props {
 
 function MovieItem({data}: props) {
 
+    function getTheme() {
+        switch (data.die) {
+            case 0:
+                return "bg-green-800 dark:bg-green-600";
+            case 1:
+                return "bg-red-800 dark:bg-red-600";
+            case 2:
+                return "bg-gray-800 dark:bg-gray-600";
+        }
+    }
+
     return (
         <div className="text-white font-semibold">
 
-            <div className="border border-black rounded-2xl overflow-hidden bg-main">
-                <h1 className={`text-white text-2xl font-bold text-center p-2 border-b border-white ${data.die ? "bg-red-900" : "bg-green-900"}`}>{data.title}</h1>
-
-                <div className="flex justify-center py-2">
-                    <img src={data.image} className="h-80 rounded-xl"/>
-                </div>
-
-                <div className="select-none">
-                    <p className="h-20 min-h-20 px-2 py-1 border-white border-b border-t overflow-hidden hover:overflow-auto hover:h-auto">{data.desc}</p>
-                </div>
-
-                <div className={`text-center select-none py-2 ${data.die ? "bg-red-900" : "bg-green-900"}`}>
-                    <p className="text-white text-2xl font-bold">{data.die ? "The Shark Dies" : "The Shark Lives"}</p>
-                </div>
+            <div className="flex justify-center">
+                <img src={data.image} className="rounded-t-xl"/>
             </div>
 
+            <div className={`rounded-b-xl text-center select-none py-2 ${getTheme()}`}>
+                <p className="capitalize px-2">{data.desc}</p>
+            </div>
 
         </div>
     )
